@@ -15,3 +15,11 @@ Open the `basics.html` file which will then source the `basics.js` file, which c
 - Arrays
 - Desturcturing
 - Funtions
+
+## Advance
+
+Open the `advance.html` file which will then source the `advance.js` file, which contains the code for the following topics:
+
+- Callbacks
+- Promises
+- Closures
