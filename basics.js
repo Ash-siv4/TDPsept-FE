@@ -1,3 +1,4 @@
+'use strict';//comply to good and secure JS syntax
 
 //Console outputs
 console.log("hello world"); // print -informational
@@ -221,10 +222,10 @@ function myFun(p,x){
 }
 
 //function expression - has to be initalised before called
-myFun2("function expression");
 const myFun2 = function(x){
     console.log(x);
 }
+myFun2("function expression");
 
 
 //arrow functions - more concise way of writing function expressions

@@ -12,3 +12,6 @@ Open the `basics.html` file which will then source the `basics.js` file, which c
 - Operators
 - Iteration
 - Conditionals
+- Arrays
+- Desturcturing
+- Funtions
