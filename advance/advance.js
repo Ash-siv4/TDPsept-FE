@@ -29,7 +29,7 @@ const userInput = (callback) => {
 
 // greet("Ash", "S");
 //define which function will be our callback function
-userInput(greet);//i.e. we callback the greet function here
+// userInput(greet);//i.e. we callback the greet function here
 // userInput(bye);
 // userInput(fullname);
 
@@ -39,25 +39,25 @@ userInput(greet);//i.e. we callback the greet function here
 // - rejected
 // - pending
 
-let prom = new Promise((resolve, reject)=>{
-    let x = "no";//7
-    if(x=="milk"){
-        resolve("Success");
-    }else{
-        reject("Failed, out of stock");
-    }
-})
+// let prom = new Promise((resolve, reject)=>{
+//     let x = "no";//7
+//     if(x=="milk"){
+//         resolve("Success");
+//     }else{
+//         reject("Failed, out of stock");
+//     }
+// })
 
 //calling the promise
 //try-catch-finally
-prom.then(()=>{
-    console.log(`task completed`);
-}).catch((message)=>{
-    console.log(`Catch block - status is: ${message}`);
-    console.error(message);
-}).then(()=>{//finally
-    console.log("Finally block - runs regardless")
-})
+// prom.then(()=>{
+//     console.log(`task completed`);
+// }).catch((message)=>{
+//     console.log(`Catch block - status is: ${message}`);
+//     console.error(message);
+// }).then(()=>{//finally
+//     console.log("Finally block - runs regardless")
+// })
 
 //Closures - data privacy
 
@@ -73,7 +73,22 @@ const fullName = (fname) => {
 }
 
 let first = fullName("Ash");//fname =Ash
-console.log(first);//fullName returns the lname arrow funtion which then returns the string
+// console.log(first);//fullName returns the lname arrow funtion which then returns the string
 
 let second = first("siva");
-console.log(second);//actual values that the inner function has used for the string
+// console.log(second);//actual values that the inner function has used for the string
+
+//outer function
+let multiplier = (x) => {
+    return (y) => {
+        return x*y;
+    };
+}
+let m = multiplier(3);
+console.log(m);
+console.log(m(2));
+
+
+
+
+// (x) => { console.log("hi")}; // this is the arrow function part
