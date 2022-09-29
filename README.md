@@ -23,3 +23,7 @@ Open the `advance.html` file which will then source the `advance.js` file, which
 - Callbacks
 - Promises
 - Closures
+
+## DOM Manipulation
+
+Navigate to the **DOM Manipulation folder and open the  `index.html` file which will then source the `index.js` file containing the code to manipulate the DOM created from the `index.html`.
