@@ -14,8 +14,8 @@ function showData(data){
         const br = document.createElement("br");
         all.appendChild(br);
         all.appendChild(superName);
-        superName.addEventListener("click", function(event){
-            const realName = alert(data[i].alter_ego);
+        superName.addEventListener("click", function(){
+            alert("IDENTITY: " + data[i].alter_ego);
         })
         display.appendChild(all);
     }
