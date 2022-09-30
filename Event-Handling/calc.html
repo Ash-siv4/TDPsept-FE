@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        button {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="container" id="calc">
+                <div class="row mt-2">
+                    <div class="col">
+                        <input type="number" class="form-control" id="calcIn" readonly>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col">
+                        <button class="num">1</button>
+                    </div>
+                    <div class="col">
+                        <button class="num">2</button>
+                    </div>
+                    <div class="col">
+                        <button class="num">3</button>
+                    </div>
+                    <div class="col">
+                        <button class="op">+</button>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col">
+                        <button class="num">4</button>
+                    </div>
+                    <div class="col">
+                        <button class="num">5</button>
+                    </div>
+                    <div class="col">
+                        <button class="num">6</button>
+                    </div>
+                    <div class="col">
+                        <button class="op">-</button>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col">
+                        <button class="num">7</button>
+                    </div>
+                    <div class="col">
+                        <button class="num">8</button>
+                    </div>
+                    <div class="col">
+                        <button class="num">9</button>
+                    </div>
+                    <div class="col">
+                        <button class="op">/</button>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col">
+                        <button id="clear" class="btn btn-danger">C</button>
+                    </div>
+                    <div class="col">
+                        <button class="num">0</button>
+                    </div>
+                    <div class="col">
+                        <button id="equal" class="btn btn-success">=</button>
+                    </div>
+                    <div class="col">
+                        <button class="op">*</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./calc.js"></script>
+</body>
+
+</html>
